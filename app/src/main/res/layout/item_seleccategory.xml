@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="model"
+            type="com.tts.yeojeong.dataset.Writereviewcategorydata" />
+    </data>
+
+    <FrameLayout
+        android:layout_margin="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="37.45dp"
+        android:background="@drawable/bg_innerwhiteradius"
+        android:elevation="4dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:id="@+id/keycardbg">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{model.des}"
+            android:id="@+id/keyworddes"
+            android:textSize="14dp"/>
+    </FrameLayout>
+
+
+</layout>

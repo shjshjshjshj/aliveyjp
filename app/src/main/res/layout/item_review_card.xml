@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="148dp"
+        android:layout_height="148dp"
+        app:cardBackgroundColor="@color/aline9"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        android:id="@+id/review_card">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/place"
+            android:scaleType="centerCrop"
+            android:id="@+id/review_image"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_marginTop="87dp"
+            android:background="@drawable/bg_gradientvetical"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingStart="8dp">
+
+            <TextView
+                android:id="@+id/reviewname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="장소 제목"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="YYYY.XX.XX"
+                android:textColor="@color/white"
+                android:textSize="14dp"
+                android:id="@+id/reviewdate"/>
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</layout>

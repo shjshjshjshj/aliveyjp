@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.join.tutofift">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="clip_horizontal"
+        android:background="#F8F9FB"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="키워드 선택으로 간편한 리뷰 작성!"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="복잡한 글 작성 대신 장소에 맞는"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#727996"
+            android:textSize="14dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="키워드를 선택해 손쉽게 리뷰를 작성해보세요"
+            android:textColor="#727996"
+            android:layout_gravity="center_horizontal"
+            android:textSize="14dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/res_tutofif"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="16dp"/>
+
+
+
+
+    </LinearLayout>
+
+</FrameLayout>
